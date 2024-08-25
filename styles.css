@@ -26,6 +26,10 @@ body {
     font-family: Manrope, sans-serif;
 }
 
+.hidden {
+    display: none !important;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -72,21 +76,30 @@ body {
     }
 }
 
-
+.image-text-container img {
+    border-radius: 100%;
+}
 
 .person-info-container {
     display: flex;
     justify-content: space-between;
+    align-content: center;
 }
 
 .image-text-container {
     display: flex;
 }
 
+.name-container {
+    align-items: center;
+    height: 100%;
+}
 
 .share-container {
     background-color: var(--primary-800);
     color: var(--primary-100);  
+    align-content: center;
+    align-items: center;
 }
 
 .share-link span {

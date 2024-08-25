@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
-
     <link
       rel="icon"
       type="image/png"
@@ -51,26 +50,26 @@
             you make any room feel complete.
           </p>
   
-          <div class="person-info-container">
+          <div class="person-info-container", id="person-info-container">
             <div class="image-text-container">
               <img src="images/avatar-michelle.jpg" alt="" />
-              <div class="name-container">
-                <p>Michelle Appleton</p>
-                <p>28 Jun 2020</p>
-              </div>
             </div>
-  
-            <a href="#"> <img src="images/icon-share.svg" alt="" /> </a>
+            
+            <div class="name-container">
+              <p>Michelle Appleton</p>
+              <p>28 Jun 2020</p>
+            </div>
+            <a href="#" class="btn" id="show-share-block-button"> <img src="images/icon-share.svg" alt="" /> </a>
           </div>
 
-          <div class="share-container">
+          <div class="share-container hidden" id="share-container">
             <div class="share-link">
               <span>SHARE</span>
               <a href=""><img src="images/icon-facebook.svg" alt=""></a>
               <a href=""><img src="images/icon-pinterest.svg" alt=""></a>
               <a href=""><img src="images/icon-twitter.svg" alt=""></a>
             </div>
-            <a href="#"> <img src="images/icon-share-white.svg" alt="" /> </a>
+            <a href="#" class="btn" id="hide-share-block-button"> <img src="images/icon-share-white.svg" alt="" /> </a>
           </div>
 
         </div>
@@ -83,5 +82,9 @@
         >Frontend Mentor</a
       >. Coded by <a href="#">Your Name Here</a>.
     </div>
+
+
+
+    <script src="./stuff.js"></script>
   </body>
 </html>
